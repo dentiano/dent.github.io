@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Form CV</title>
+	<style>
+		*{
+			margin: 0px;
+		}
+		nav{
+			background-color: black;
+			margin-bottom: 10px;
+			padding: 10px 50px;
+		}
+		header{
+			text-align: center;
+			margin: 0 0 5px 50px;
+		}
+		body{
+			background-color:#a09e98;
+		}
+		main{
+			background-color: white;
+			margin:5px 280px 50px 300px;
+		}
+		label{
+			width: 20%;
+			display: inline-block;
+			margin: 15px;
+			padding: 5px 10px;
+			text-align: center;
+		}
+		footer{
+
+		}
+		.navi{
+			text-decoration: none;
+			background-color: rgba(0, 24, 35, 0.8);
+			color: white;
+			text-align: center;
+			font-family: cursive;
+			padding: 10px 50px;
+		}
+		.navi:hover{
+			text-decoration: underline;
+		}
+		.palamat{
+			width: 390px;
+			height: 17px;
+		}
+		.center{
+			text-align: center;
+		}
+		.form{
+			height: 35px;
+		}
+		.panjang{
+			width: 85px;
+		}
+		#judul{
+			text-align: center;
+			text-decoration: underline;
+			margin: 15px 0 0 5px;
+			line-height: 40px;
+		}
+	</style>
+</head>
+
+<body>
+	<nav>
+		<a href="index.html" class="navi">HOME</a>
+	</nav>
+
+	<header>
+		<h1> FORM PRIBADI </h1>
+	</header>
+
+	
+
+	<main>
+	<h4 id="judul">Isilah Form Berikut</h4>
+	<hr>
+		<form>
+			<div class="form">
+				<label for="nama">Nama</label>
+				: <input type="text" placeholder="Nama lengkap" id="nama" class="palamat" required>
+			</div>
+			<div class="form">
+				<label for="tempat">Tempat</label>
+				: <input type="text" placeholder="Tempat lahir" id="tempat">
+				Tanggal Lahir 
+				<input type="date" name="tanggal" min="1900-01-01" max="2017-12-31">
+			</div>
+			<div class="form">
+				<label for="alamat">Alamat </label>
+				: <input type="text" placeholder="Alamat Lengkap" name="alamat" id="alamat" width="50px" class="palamat" required>  
+			</div>
+			<div class="form">
+				<label for="gender">Jenis Kelamin</label>
+				 <input type="radio" name="kelamin" id="gender">Laki-laki
+				 <input type="radio" name="kelamin" id="gender">perempuan
+				 <input type="radio" name="kelamin" id="gender">Lainnya
+			</div>
+			<div class="form">  
+				<label for="agama">Agama</label> : 
+				 	<select id="agama">
+						<option value="islam">Islam</option>
+						<option value="katholik">Katholik</option>
+						<option value="kristen">Kristen</option>
+						<option value="hindu">Hindu</option>
+						<option value="budha">Budha</option>
+						<option value="konghuchu">Konghuchu</option>
+					</select>  
+			</div>
+			<div class="form">
+				<label for="status">Status </label>   
+				: <input type="text" id="status" placeholder="Status anda">
+			</div>  
+			<div class="form">
+				<label for="tinggi">Tinggi Badan </label>
+				: <input type="text" name="Tinggi Badan" id="tinggi" placeholder="cm" class="panjang"> cm  
+			</div>
+			<div class="form">
+				<label for="berat">Berat Badan </label>   
+				: <input type="text" name="Berat Badan" id="berat" placeholder="kg" class="panjang"> kg  
+			</div>
+			<div class="form">
+				<label for="tel">No Telephone/HP </label>  
+				: <input type="text" name="tel" placeholder="No HP yang aktif" id="tel" required>  
+			</div>
+			<div class="form">
+				<label for="mail">E-mail</label>   
+				: <input type="email" id="mail" placeholder="e-mail" name="email" required>  
+			</div>
+			<div class="form">
+				<label for="warna">Warna favorit</label>   
+				: <input type="color" name="color" id="warna">
+			</div>
+			<br>
+			<div>
+				<label for="skill">Kemampuan</label>
+				<textarea cols="45" rows="7" id="skill" placeholder="skill yang dimiliki"></textarea>
+			</div>
+			<br>
+			<div class="center">
+				<input type="submit" value="submit">
+			</div>
+		</form>
+		<br>
+		<br>
+		<hr>
+	</main>
+
+	<footer>
+		<p>&copy;Dentiano N.R</p>
+	</footer>
+</body>
+</html>
