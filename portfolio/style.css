@@ -1,0 +1,400 @@
+/*creat by dentiano*/
+
+/*css untuk semua*/
+*{
+	margin:0 ;
+	transition: all 0.5s;
+	max-width: 100vw;
+}
+h5{
+	font-family: 'Barrio', cursive;
+}
+.header{
+	position: fixed;
+	top: 10px;
+	right: 10px;
+	line-height: 30px;
+	width: 7%;
+	z-index: 3;
+}
+.back{
+	color: orange;
+	font-family: 'Jockey One', sans-serif;
+	font-weight: bolder;
+	text-decoration: none;
+	text-align: center;
+	width: 200px;
+	padding: 5px 17px;
+	background-color: #666363;
+	border-radius: 15px;
+}
+.back:hover{
+	color: white;
+	background-color: orange;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(0, 0, 0, 0.15);
+}
+/*css untuk index*/
+.idx{
+	background-color: #1b1d1e;
+	height: 100vh;
+	width: 100%;
+}
+.awal{
+	position: relative;
+	height: 50%;
+	width: 100%;
+	margin: auto;
+	background: linear-gradient(#0a0b0c, #1b1d1e);
+}
+.judul1{
+	position: relative;
+	margin: auto;
+	height: 11vh;
+	width: 62%;
+	top: 20px;
+}
+#hello{
+	font-family: 'Concert One', cursive;
+	font-size: 5vh;
+	text-align: center;
+	color: #ffae37;
+}
+.avatar{
+	position: relative;
+	margin: auto;
+	height: 132px;
+	width: 50%; 
+	text-align: center;
+	display: block;
+	left: auto;
+	top: 37px;
+}
+#ava{
+	height: 131px;
+	width: 100px;
+	text-align: center;
+	margin: auto;
+}
+#nam1{
+	position: relative;
+	top: 62px;
+}
+.nama{
+	font-family: 'Palanquin Dark', sans-serif;
+	text-align: center;
+	color: white;
+}
+.no-1{
+	color: #ffae37;
+}
+.link{
+	position: relative;
+	top: 20px;
+	height: 23%;
+	width: 100%;
+	max-height: 100vh;
+}
+.pinggir{
+	height: 100%;
+	width: 50%;
+	position: absolute;
+}
+.resume{
+	left: 0;
+}
+.bio{
+	right: 0;
+}
+.go{
+	text-decoration: none;
+	background-color: orange;
+	color: black;
+	margin: auto;
+	display: block;
+	text-align: center;
+	opacity: 0.5;
+	font-size: 30px;
+	line-height: 20vh;
+}
+.go:hover{
+	opacity: 1;
+	font-size: 6vh;
+	color: white;
+	box-shadow: 0px 1px 15px rgba(255, 216, 132, 0.7)
+}
+/*css utk resume*/
+.page1{
+	position: relative;
+	height: 80vh;
+	width: 100%;
+	background: #f4f4f4;
+}
+#judul2{
+	position: relative;
+	height: 25vh;
+	width: 100%;
+	margin: auto;
+}
+#resume{
+	text-align: center;
+	font-size: 5vh;
+	top: 100px;
+	font-family: 'Rubik Mono One', sans-serif;
+	text-decoration: underline;
+	position: relative;
+	width: 45%;
+	margin: auto;
+}
+#my{
+	font-size: 7vh;
+	background-color: #0a0a0a;
+	color: white;
+}
+.pribadi{
+	position: relative;
+	font-size: 30px;
+	height: 40%;
+	width: 63%;
+	top: 100px;
+	margin: auto;
+}
+.identity{
+	position: relative;
+	display: inline-block;
+	margin: auto;
+	left: 0;
+	top: 25%;
+	width: 100%;
+	text-align: center;
+}
+
+/*education*/
+.page2{
+	position: relative;
+	height: 32vh;
+	width: 100%;
+}
+.utama{
+	height: 20%;
+	width: 100%;
+	background-color: #161616;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(0, 0, 0, 0.15);
+}
+#edu{
+	text-align: center;
+	color: white;
+	font-family: 'Jockey One', sans-serif;
+	line-height: 5vh;
+	font-size: 4vh;
+	font-weight: bold;
+}
+.layer1{
+	position: relative;
+	height: 80%;
+	width: 100%;
+	line-height: 8vh;
+}
+.bagi{
+	position: absolute;
+	height: 100%;
+	width: 25%;
+	background-color: #000817;;
+	display: inline-block;
+	opacity: 0.5;
+}
+.bagi:hover{
+	opacity:1; 
+}
+.sd{
+	left: 0;
+}
+.smp{
+	left: 25%;
+}
+.sma{
+	right: 25%;
+}
+.univ{
+	right: 0;
+}
+.title_tingkat{
+	text-align: center;
+	font-weight: bold;
+	font-size: 3vh;
+	color: white;
+	margin: auto;
+	z-index: 1;
+	left: 41%;
+	position: absolute;
+}
+.sekolah{
+	color: #000817;
+	height: 70%;
+	width: 100%;
+	position: relative;
+}
+.sekolah:hover{
+	position: absolute;
+	color: #a8efff;
+}
+.isi{
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	font-size: 2vh;
+	top: 50%;
+}
+/*experience*/
+.page3{
+	background: #261b3b url("image/experience.png") no-repeat right;
+	position: relative;
+	height: 50vh;
+	width: 100%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(0, 0, 0, 0.15);
+}
+#experience{
+	text-align: center;
+	font-size: 4vh;
+	font-family: 'Jockey One', sans-serif;
+	color: white;
+	font-weight: bolder;
+	position: relative;
+	top: 15px;
+}
+.lis{
+	position: relative;
+	width: 62vw;
+	height: 70%;
+	margin: auto;
+	top: 11%;
+	max-width: 100%
+}
+.list{
+	line-height: 11vh;
+	color: white;
+	font-size: 25px;
+}
+/*resume skill*/
+.page4{
+	position: relative;
+	height: 25vh;
+	width: 100%;
+}
+.skill{
+	text-align: center;
+	font-size: 4vh;
+	font-family: 'Jockey One', sans-serif;
+	font-weight: bolder;
+	position: relative;
+	top: 15px;
+}
+.kelompok{
+	position: relative;
+	height: 74%;
+	width: 100%;
+	top: 30px;
+}
+.persen{
+	position: absolute;
+	height: 75%;
+	width:25%;
+	text-align: center;
+	font-weight: bolder;
+	margin: auto;
+	top: 25%;
+	display: inline-block;
+	font-family: 'Geo', sans-serif;
+	color: #959595;
+	font-size: x-large;
+}
+.html{
+	left: 0;
+}
+.css{
+	left: 25%;
+}
+.java{
+	right: 25%;
+}
+.php{
+	right: 0;
+}
+.page5{
+	position: relative;
+	height: 23vh;
+	width: 100%;
+}
+.aktiviti{
+	text-align: center;
+	font-size: 4vh;
+	font-family: 'Jockey One', sans-serif;
+	font-weight: bolder;
+	position: relative;
+	top: 50%;
+	margin: auto;
+	text-transform: uppercase;
+	letter-spacing: 6px;
+	z-index: 1;
+	color: #ded3f4;
+}
+.kegiatan{
+	position: absolute;
+	width: 50%;
+	height: 100%;
+	box-shadow: 0 -6px 0px 0 rgba(0, 0, 0, 0.1), 0 -2px 1px 0 rgba(0, 0, 0, 0.15);
+}
+.no1{
+	background-color: #35456b;
+	left: 0;
+}
+.no2{
+	background-color: #0d1f2b;
+	right: 0;
+}
+.ukm{
+	position: absolute;
+	color: #f1f1f1;
+	font-family: 'Coda Caption', sans-serif;
+	font-size: 29px;
+	height: 48%;
+	top: 48%;
+}
+.unytech{
+	left: 20px;
+}
+.safel{
+	right: 20px;
+}
+/*biografi*/
+#all{
+	height: 100vh;
+	width: 100%;
+	background: linear-gradient(#0a0b0c, #1b1d1e);
+}
+#biografi{
+	font-size: 7vh;
+	text-align: center;
+	position: relative;
+	margin: auto;
+	width: 80%;
+	top: 30px;
+	text-transform: uppercase;
+	font-family: 'Jockey One', sans-serif;
+	color: white;
+}
+#box{
+	border: 5px solid orange;
+	position: absolute;
+	border-bottom-left-radius: 50px;
+	border-top-right-radius:  50px;
+	top: 24%;
+	margin: 0 15%;
+	line-height: 27px;
+	padding: 20px;
+}
+.para{
+	text-align: justify;
+	text-indent: 36px;
+	font-size: 25px;
+	color: white;
+}
